@@ -1,0 +1,19 @@
+{
+  "name": "openpad-y-websockets-server",
+  "version": "1.0.0",
+  "description": "openpad.io's y-websockets server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dnode": "^1.2.2",
+    "express": "^4.14.0",
+    "redis": "^2.6.3",
+    "socket.io": "^1.7.1",
+    "y-websockets-server": "^9.1.5",
+    "yjs": "git+https://github.com/y-js/yjs.git"
+  }
+}
